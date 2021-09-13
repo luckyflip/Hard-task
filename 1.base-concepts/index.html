@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Основные понятия</title>
+  </head>
+
+  <body>
+      <div class="card">
+        <input type="text" placeholder="Interest rate" id="percent" />
+        <input type="text" placeholder="an initial fee" id="contribution" />
+        <input type="text" placeholder="total cost" id="amount" />
+        <label>Mortgage term<input type="date" id="date" /></label>
+        <button onClick="calculateMortgage()">
+          Calculate the total cost of the mortgage
+        </button>
+        <div>
+          <span id="mortageResult"></span>
+        </div>
+      </div>
+    </main>
+    <script src="task.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
